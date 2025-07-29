@@ -1,0 +1,33 @@
+body {
+  background: #f0fdf4;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0,0,0,0.1);
+  text-align: center;
+}
+.logo {
+  color: green;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+button {
+  padding: 0.5em 1em;
+  margin: 1em;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+input {
+  padding: 0.5em;
+  width: 80%;
+}
